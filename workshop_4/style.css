@@ -1,6 +1,8 @@
 #schaakbord {
-    width : 508px;
+    width : 480px;
     border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
 }
 .wit{
     width: 60px;
