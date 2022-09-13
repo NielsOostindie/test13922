@@ -1,0 +1,42 @@
+@charset " utf - 8 " ;
+
+#header {
+    background-image: url("http://jos.gluweb.nl/lessen/web/blue.png");
+    height: 150px;
+    width: 960px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color : #ffffff ;
+    font-size : 25px ;
+    font-family : arial ;
+    line-height: 150px;
+
+}
+
+#content{
+    background-image: url("https://previews.123rf.com/images/hellokisdottir/hellokisdottir1505/hellokisdottir150500030/40086874-summer-forest-flat-background-simple-and-cute-landscape-for-your-design.jpg");
+    height: 150px;
+    width: 960px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color : #ffffff ;
+    font-size : 25px ;
+    font-family : arial ;
+    line-height: 150px;
+}
+
+#footer{
+    background-image: url("https://miro.medium.com/max/1400/0*GMReHtD9mDbpl54Q");
+    height: 150px;
+    width: 960px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    color : #ffffff ;
+    font-size : 25px ;
+    font-family : arial ;
+    line-height: 150px;
+
+}
