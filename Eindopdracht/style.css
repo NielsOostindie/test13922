@@ -22,13 +22,13 @@ body {
 }
 
 #header img {
-    width:250px;
+    width: 250px;
     height: 250px;
     border-radius: 50%;
     border: 10px solid #fff;
 }
 
-#header img:hover{
+#header img:hover {
     transition: 0.70s;
     transform: rotate(360deg);
 }
@@ -37,6 +37,7 @@ body {
     padding-top: 30px;
     color: #fff;
 }
+
 #content {
     background-color: #ADD9F4;
     color: #000;
@@ -48,29 +49,35 @@ body {
 }
 
 #content #intro {
-padding-top: 20px;
-font-size: 25px;
+    padding-top: 20px;
+    font-size: 25px;
 }
+
 #content #overig {
-padding-top: 20px;
-font-size: 25px;
+    padding-top: 20px;
+    font-size: 25px;
 }
+
 #content #kennis {
-padding-top: 20px;
-font-size: 25px;
+    padding-top: 20px;
+    font-size: 25px;
 }
+
 #content #kennis ul {
     padding-left: 15px;
     font-size: 25px;
 }
+
 #experimental {
     background-color: #476C9B;
     height: 500px;
     padding: 50px;
 }
+
 #experimental h2 {
     text-align: center;
 }
+
 #footer {
     background-color: #101419;
     height: 300px;
@@ -78,10 +85,12 @@ font-size: 25px;
     text-align: center;
     padding-top: 20px;
 }
+
 #footer ul {
     display: block;
     padding-top: 10px;
 }
+
 #footer ul li {
     display: inline-block;
 }
@@ -90,52 +99,96 @@ font-size: 25px;
     padding: 10px;
 }
 
-#img{
+#img {
     width: 50px;
-    height: 50px;  
+    height: 50px;
 }
 
-.item-1, 
-.item-2, 
+.item-1,
+.item-2,
 .item-3 {
     position: absolute;
-  display: block;
-  
-  width: 50%;
-  
-  font-size: 2em;
+    display: block;
 
-	animation-duration: 20s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
+    width: 50%;
+
+    font-size: 2em;
+
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
-.item-1{
-	animation-name: anim-1;
+.item-1 {
+    animation-name: anim-1;
 }
 
-.item-2{
-	animation-name: anim-2;
+.item-2 {
+    animation-name: anim-2;
 }
 
-.item-3{
-	animation-name: anim-3;
+.item-3 {
+    animation-name: anim-3;
 }
 
 @keyframes anim-1 {
-	0%, 8.3% { left: -100%; opacity: 0; }
-  8.3%, 25% { left: 25%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 0; }
+
+    0%,
+    8.3% {
+        left: -100%;
+        opacity: 0;
+    }
+
+    8.3%,
+    25% {
+        left: 25%;
+        opacity: 1;
+    }
+
+    33.33%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
 }
 
 @keyframes anim-2 {
-	0%, 33.33% { left: -100%; opacity: 0; }
-  41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 0; }
+
+    0%,
+    33.33% {
+        left: -100%;
+        opacity: 0;
+    }
+
+    41.63%,
+    58.29% {
+        left: 25%;
+        opacity: 1;
+    }
+
+    66.66%,
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
 }
 
 @keyframes anim-3 {
-	0%, 66.66% { left: -100%; opacity: 0; }
-  74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: 110%; opacity: 0; }
+
+    0%,
+    66.66% {
+        left: -100%;
+        opacity: 0;
+    }
+
+    74.96%,
+    91.62% {
+        left: 25%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 110%;
+        opacity: 0;
+    }
 }
