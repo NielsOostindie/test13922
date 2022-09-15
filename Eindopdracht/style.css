@@ -36,21 +36,30 @@ ul {
     background-color: #04AA6D;
   }
 
-body {
-    background-color: rgba(0, 0, 0, 0.784);
+body{
+    background-image: url(Untitled-3.png);
 }
+
+section{
+    z-index: 0;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 #container {
     width: fit-content;
     margin: 0 auto;
-    border: 1px solid #000000;
+    
 }
 
 #header {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #984447;
 }
 #header #pIMG {
     object-fit: fill;
@@ -60,21 +69,25 @@ body {
 }
 
 #pIMGDiv{
-    background-image: url("IMG_0664.jpg");
     background-size: cover;
     background-position: center;
-    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    margin-right: 100%;
+    margin-top: 10%;
     width: 250px;
     height: 250px;
-    border-radius: 50%;
-    border: 10px solid #fff;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 100%;
+    background: linear-gradient(45deg, #F48ACE 0%, #493A97 100%);
 }
 
 
 
 
 #header #pIMGDiv:hover {
-    transition: 0.70s;
+    transition: 0.80s;
     transform: rotate(360deg);
 }
 
@@ -84,7 +97,6 @@ body {
 }
 
 #content {
-    background-color: #ADD9F4;
     color: #000;
     padding: 50px;
 }
@@ -104,7 +116,6 @@ body {
 }
 
 #content #kennis {
-    padding-top: 20px;
     font-size: 25px;
 }
 
@@ -114,7 +125,6 @@ body {
 }
 
 #experimental {
-    background-color: #476C9B;
     height: 500px;
     padding: 50px;
 }
@@ -124,8 +134,7 @@ body {
 }
 
 #footer {
-    background-color: #101419;
-    height: 300px;
+    height: 100px;
     color: #fff;
     text-align: center;
     padding-top: 20px;
