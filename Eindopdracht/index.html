@@ -4,7 +4,8 @@
 <head>
     <title>Wie ben ik?</title>
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -23,10 +24,10 @@
 <br>
 <br>
     <ul id="navbar">
-        <li><a href="#HeaderSection">Home</a></li>
-        <li><a href="#ContentSection">GitHub</a></li>
-        <li><a href="#FooterSection">Contact</a></li>
-        <li style="float:right"><a class="active" href="">Mijn Projecten</a></li>
+        <li><a href="#HeaderSection" class="scroll">Home</a></li>
+        <li><a href="#ContentSection" class="scroll">GitHub</a></li>
+        <li><a href="#FooterSection" class="scroll">Contact</a></li>
+        <li style="float:right"><a class="active scroll" href="#MijnProjectenSection" >Mijn Projecten</a></li>
     </ul>
     <section id="HeaderSection">
 
@@ -74,6 +75,16 @@
         <p class="item-3">Je kan recht boven in kliken op mijn projecten</p>
 
     </div>
+</section>
+
+<section id="MijnProjectenSection">
+<a href="">
+<img id="chessboard" width="400px" src="Chessboard.png" alt="">
+</a>
+<br>
+<a href="../workshop_5/index.html">
+<img id="muur" width="400px" src="Muur.png" alt="">
+</a>
 </section>
     <div id="footer">
         &copy; 2022
