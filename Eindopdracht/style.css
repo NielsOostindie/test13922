@@ -4,12 +4,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul.fixed-to-top{
+    background: rgba(38, 50, 56, 0.5);
+  }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background: black;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
