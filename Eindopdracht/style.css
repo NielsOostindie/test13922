@@ -5,6 +5,7 @@
 }
 
 ul.fixed-to-top{
+    transition: all ease-in-out 0.2s;
     background: rgba(38, 50, 56, 0.5);
   }
 
@@ -42,6 +43,7 @@ ul {
 
 body{
     background-image: url(Untitled-3.png);
+    background-size: cover;
 }
 
 section{

@@ -15,11 +15,12 @@
 }
 
 #content{
-    background-image: url("https://previews.123rf.com/images/hellokisdottir/hellokisdottir1505/hellokisdottir150500030/40086874-summer-forest-flat-background-simple-and-cute-landscape-for-your-design.jpg");
+    background-image: url("https://wallpaper.dog/large/10719963.jpg");
     height: 150px;
     width: 960px;
     margin: 0 auto;
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     color : #ffffff ;
     font-size : 25px ;
@@ -28,7 +29,8 @@
 }
 
 #footer{
-    background-image: url("https://miro.medium.com/max/1400/0*GMReHtD9mDbpl54Q");
+    background-image: url("https://wallpaper.dog/large/10719979.jpg");
+    background-size: cover;
     height: 150px;
     width: 960px;
     margin: 0 auto;
