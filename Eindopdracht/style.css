@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Nabla&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, Nabla, IndieFlower;
 }
 
 #FooterSection{
@@ -112,6 +114,7 @@ section{
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
+    font-family: Nabla;
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
