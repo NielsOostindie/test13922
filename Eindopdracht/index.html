@@ -14,9 +14,11 @@
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 document.getElementById("navbar").style.opacity = "0.5";
                 console.log("hallo test");
+                document.getElementsByClassName("active").style.opacity= "0.5";
             } else {
                 document.getElementById("navbar").style.opacity = "1";
                 console.log("Werkt het")
+                document.getElementsByClassName("active").style.opacity= "1";
             }
         }
         console.log("werkt het of niet")
@@ -66,7 +68,7 @@
         <div id="kennis">
 
         </div>
-        
+
         <div id="experimental">
             <h2 id="Experimental">Experimental Zone &#128512;</h2>
 
